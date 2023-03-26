@@ -12,6 +12,12 @@ public class Ex4 {
         int age = scanner.nextInt();
         Student student = new Student(name, age, classN);
         System.out.println("Tên: " + student.getName() + " Lớp: " + student.getClassN() + " Tuổi: " + student.getAge());
+
+        student.setName("I'm ChungCarlos");
+        student.setClassN("C0223G1 CodeGym");
+        student.setAge(23);
+        System.out.println("Tên: " + student.getName() + " Lớp: " + student.getClassN() + " Tuổi: " + student.getAge());
+
     }
 }
     class Student {
